@@ -1,4 +1,440 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+
+    img {
+        width: 180px;
+        height: 80px;
+        margin-left: 160px;
+        padding-right: 900px;
+    }
+
+    button {
+        width: 85px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #E50914;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s;
+        border: none;
+    }
+
+    button:hover {
+        background-color: #e50914dc;
+    }
+
+}
+
+section {
+
+    .open-page {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 180px;
+
+        h1 {
+            font-size: 60px;
+            line-height: 50px;
+            
+        }
+
+        .first-seen {
+            font-size: 30px;
+            line-height: 80px;
+        }
+
+        .second-seen {
+            font-size: 20px;
+        }
+
+        .email-box {
+            width: 400px;
+            height: 55px;
+            background-color: #1F201F;
+            border: white solid 1px;
+            border-radius: 4px;
+            color: white;
+            background: rgba(27, 27, 27, 0.904);
+            margin-top: 20px;
+
+        }
+
+        .address-box {
+            margin-top: 15.5px;
+            margin-left: 20px;
+            font-size: 14px;
+
+        }
+
+        .section-details {
+            display: flex;
+            gap: 7px;
+
+        }
+
+        button {
+            width: 210px;
+            height: 60px;
+            background-color: #E50914;
+            color: white;
+            font-size: 25px;
+            border: none;
+            border-radius: 4px;
+            align-items: center;
+            margin-top: 20px;
+            transition: all 0.3s;
+            cursor: pointer;
+
+        }
+
+
+        button:hover {
+            background-color:#e50914dc;
+
+        }
+    }
+
+    .tv{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        color: white;
+        border-top: #232323 solid 7px;
+
+        display: flex;
+
+        .tv-information{
+            width: 50%;
+            margin-top: 150px;
+            margin-left: 150px;
+
+            h1{
+                font-size: 50px;
+                line-height: 90px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .tv-image{
+            width: 50%;
+        }
+    }
+
+    .lady{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        color: white;
+        border-top: #232323 solid 7px;
+
+        display: flex;
+
+        .lady-information{
+            width: 50%;
+            margin-top: 150px;
+            margin-right: 150px;
+
+            h1{
+                font-size: 50px;
+                line-height: 70px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .lady-image{
+            width: 50%;
+        }
+    }
+
+    .tv-phone{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        color: white;
+        border-top: #232323 solid 7px;
+
+        display: flex;
+
+        .tv-phone-information{
+            width: 50%;
+            margin-top: 150px;
+            margin-left: 150px;
+
+            h1{
+                font-size: 50px;
+                line-height: 90px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .tv-phone-image{
+            width: 50%;
+        }
+    }
+
+    .kids{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        color: white;
+        border-top: #232323 solid 7px;
+
+        display: flex;
+
+        .kids-information{
+            width: 50%;
+            margin-top: 150px;
+            margin-right: 200px;
+
+            h1{
+                font-size: 50px;
+                line-height: 90px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .kids-image{
+            width: 50%;
+        }
+    }
+
+    .questions{
+        width: 100%;
+        height: 1000px;
+        background-color: black;
+        color: white;
+        border-top: #232323 solid 7px;
+
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .edit-1{
+            width: 1180px;
+            height: 70px;
+            background-color: #2D2D2D;
+            
+            display: flex;
+            margin-left: 180px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            justify-content: center;
+            gap: 890px;
+            padding-top: 30px;
+            
+        }
+
+        .edit-2{
+            width: 1180px;
+            height: 70px;
+            background-color: #2D2D2D;
+            
+            display: flex;
+            margin-left: 180px ;
+            margin-bottom: 10px;
+            font-size: 30px;
+            justify-content: center;
+            gap: 700px;
+            padding-top: 30px;
+            
+        }
+
+        .edit-3{
+            width: 1180px;
+            height: 70px;
+            background-color: #2D2D2D;
+            
+            display: flex;
+            margin-left: 180px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            justify-content: center;
+            gap: 840px;
+            padding-top: 30px;
+        }
+
+        .edit-4{
+            width: 1180px;
+            height: 70px;
+            background-color: #2D2D2D;
+            
+            display: flex;
+            margin-left: 180px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            justify-content: center;
+            gap: 880px;
+            padding-top: 30px;
+        }
+
+        .edit-5{
+            width: 1180px;
+            height: 70px;
+            background-color: #2D2D2D;
+            
+            display: flex;
+            margin-left: 180px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            justify-content: center;
+            gap: 720px;
+            padding-top: 30px;
+        }
+
+        .edit-6{
+            width: 1180px;
+            height: 70px;
+            background-color: #2D2D2D;
+            
+            display: flex;
+            margin-left: 180px;
+            margin-bottom: 50px;
+            font-size: 30px;
+            justify-content: center;
+            gap: 780px;
+            padding-top: 30px;
+
+        }
+
+        .second-seen {
+            font-size: 20px;
+        }
+
+        .email-box {
+            width: 400px;
+            height: 55px;
+            background-color: #1F201F;
+            border: white solid 1px;
+            border-radius: 4px;
+            color: white;
+            background: rgba(27, 27, 27, 0.904);
+            margin-top: 20px;
+
+        }
+
+        .address-box {
+            margin-top: 15.5px;
+            margin-left: 20px;
+            font-size: 14px;
+
+        }
+
+        .section-details {
+            display: flex;
+            gap: 7px;
+
+        }
+
+        button {
+            width: 210px;
+            height: 60px;
+            background-color: #E50914;
+            color: white;
+            font-size: 25px;
+            border: none;
+            border-radius: 4px;
+            align-items: center;
+            margin-top: 20px;
+            transition: all 0.3s;
+            cursor: pointer;
+
+        }
+
+
+        button:hover {
+            background-color: #e50914dc;
+
+        }
+
+        .last{
+            margin-left: 450px;
+        }
+    }
+}
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+
+    border-top: #232323 solid 7px;
+
+
+    .mother-container {
+        display: flex;
+        margin-top: 80px;
+        margin-left: 180px;
+        margin-right: 180px;
+        gap: 150px;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    a {
+        text-decoration: underline solid white;
+        color: white;
+    }
+
+    button {
+        width: 120px;
+        height: 30px;
+
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        font-size: 17px;
+        background-color: #0F0F0F;
+        color: white;
+        border: white solid 1px;
+        border-radius: 4px;
+        padding-bottom: 30px;
+    }
+
+
+    .spacer {
+        line-height: 50px;
+    }
+
+    .helper {
+        display: flex;
+        gap: 150px;
+        margin-top: 60px;
+    }
+
 }
